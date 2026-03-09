@@ -1,0 +1,7 @@
+[package]
+name = "nickel-io"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nickel-lang-core = { path = "../nickel/core", default-features = false }
